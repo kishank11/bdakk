@@ -1,0 +1,5 @@
+hadoop jar /home/cloudera/hadoop-streaming-2.7.3.jar \
+> -input /word_count_map_reduce/word_count_data.txt \
+> -output /word_count_map_reduce/output \
+> -mapper /home/cloudera/mapper.py \
+> - reducer /home/cloudera/reducer.py
