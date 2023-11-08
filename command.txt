@@ -1,0 +1,6 @@
+cat matrix_data.txt | python3 matrix_mapper.py | sort -k1,1 | python3 matrix_reducer.py
+
+
+
+
+cat word_count_data.txt | python mapper.py | sort -k1,1 | python reducer.py
